@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("boxed-water-is-better-gseALihVvQA-unsplash.jpg");
+    font-family: 'Noto', sans-serif;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+}
+
+.countdown-container {
+    display: flex;
+
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -10rem;
+}
+
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+
+}
+
+.Cdown-el {
+    text-align: center;
+
+}
+
+.Cdown-el span {
+    font-size: 30px;
+}
+
